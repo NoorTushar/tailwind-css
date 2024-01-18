@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grid - Tailwind</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <h1 class="text-5xl text-center mb-10">Grid-TailwindCSS</h1>
+    <section>
+      <div class="grid gap-4 grid-cols md:grid-cols-12">
+        <div class="item1 bg-purple-400 h-40 col-span-12">Header</div>
+        <div class="item2 bg-purple-400 h-40 col-span-12">Nav</div>
+        <div class="item3 bg-purple-400 h-40 col-span-12 md:col-span-4">
+          Aside
+        </div>
+        <div class="item4 bg-purple-400 h-40 col-span-12 md:col-span-8">
+          Main
+        </div>
+        <div class="item4 bg-purple-400 h-40 col-span-12">Footer</div>
+      </div>
+    </section>
+  </body>
+</html>
